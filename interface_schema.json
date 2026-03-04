@@ -1,0 +1,16 @@
+{
+    "project_title": "Compiler Error Explainer",
+    "interface_version": "1.0",
+    "input_model": {
+        "source_code": "string",
+        "error_message": "string",
+        "line_number": "integer",
+        "ast_node_type": "string"
+    },
+    "output_model": {
+        "explanation": "string",
+        "root_cause": "string",
+        "secure_fix": "string",
+        "analogy": "string"
+    }
+}
