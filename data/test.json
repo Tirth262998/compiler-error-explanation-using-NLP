@@ -1,0 +1,1202 @@
+[
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int arr[74];\n    int x = arr;\n}",
+    "explanation": {
+      "description": "Array name decays to pointer, cannot be assigned to int.",
+      "root_cause": "Array name \"arr\" is treated as a pointer to its first element.",
+      "fix": "Use int* x = arr; or access element: int x = arr[0];",
+      "example": "int* x = arr; // arr is a pointer\nint y = arr[0]; // Get first element"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int num = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int data = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int arr[5];\n    int x = arr;\n}",
+    "explanation": {
+      "description": "Array name decays to pointer, cannot be assigned to int.",
+      "root_cause": "Array name \"arr\" is treated as a pointer to its first element.",
+      "fix": "Use int* x = arr; or access element: int x = arr[0];",
+      "example": "int* x = arr; // arr is a pointer\nint y = arr[0]; // Get first element"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int value = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 93;\n    x = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int data = 79;\n    data = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'strcpy' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    char str[20];\n    strcpy(str, \"hello\");\n}",
+    "explanation": {
+      "description": "String function \"strcpy\" requires <string.h>.",
+      "root_cause": "strcpy and other string functions are declared in <string.h>.",
+      "fix": "Add #include <string.h>",
+      "example": "#include <string.h>\nstrcpy(str, \"hello\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int data[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "redefinition of 'x'",
+    "error_type": "semantic",
+    "code_snippet": "#include <stdio.h>\nint main() {\n    int x = 87;\n}\nint x = 10;",
+    "explanation": {
+      "description": "Variable \"x\" is defined more than once at the global scope.",
+      "root_cause": "You cannot have two variables with the same name in the same scope.",
+      "fix": "Remove one definition or rename one variable.",
+      "example": "Use different names: int x = 5; int y = 10;"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'malloc' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    int* ptr = malloc(sizeof(int));\n}",
+    "explanation": {
+      "description": "Function \"malloc\" requires including <stdlib.h>.",
+      "root_cause": "malloc is part of the standard library, defined in <stdlib.h>.",
+      "fix": "Add #include <stdlib.h> at the beginning.",
+      "example": "#include <stdlib.h>\nint* ptr = malloc(sizeof(int));"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int value = 5;\n    value = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int value = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "too few arguments to function 'func'",
+    "error_type": "semantic",
+    "code_snippet": "void func(int a, int b);\nint main() {\n    func(5);\n}",
+    "explanation": {
+      "description": "Function \"func\" expects 2 arguments but only 1 was provided.",
+      "root_cause": "The function declaration specifies 2 parameters (a and b), but the call only passes 1.",
+      "fix": "Provide all required arguments: func(5, 10);",
+      "example": "CORRECT: func(5, 10); // Pass both arguments"
+    },
+    "context": "Functions: void func(int a, int b);, int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "redefinition of 'x'",
+    "error_type": "semantic",
+    "code_snippet": "#include <stdio.h>\nint main() {\n    int x = 5;\n}\nint x = 10;",
+    "explanation": {
+      "description": "Variable \"x\" is defined more than once at the global scope.",
+      "root_cause": "You cannot have two variables with the same name in the same scope.",
+      "fix": "Remove one definition or rename one variable.",
+      "example": "Use different names: int x = 5; int y = 10;"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'const char*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int x = \"hello\";\n    return 0;\n}",
+    "explanation": {
+      "description": "Attempting to assign a string to an integer variable.",
+      "root_cause": "Strings and integers are different types and cannot be directly assigned.",
+      "fix": "Use correct type: const char* x = \"hello\";",
+      "example": "const char* x = \"hello\"; // Correct type for strings"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", index);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int arr[5];\n    int x = arr;\n}",
+    "explanation": {
+      "description": "Array name decays to pointer, cannot be assigned to int.",
+      "root_cause": "Array name \"arr\" is treated as a pointer to its first element.",
+      "fix": "Use int* x = arr; or access element: int x = arr[0];",
+      "example": "int* x = arr; // arr is a pointer\nint y = arr[0]; // Get first element"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "too few arguments to function 'func'",
+    "error_type": "semantic",
+    "code_snippet": "void func(int a, int b);\nint main() {\n    func(5);\n}",
+    "explanation": {
+      "description": "Function \"func\" expects 2 arguments but only 1 was provided.",
+      "root_cause": "The function declaration specifies 2 parameters (a and b), but the call only passes 1.",
+      "fix": "Provide all required arguments: func(5, 10);",
+      "example": "CORRECT: func(5, 10); // Pass both arguments"
+    },
+    "context": "Functions: void func(int a, int b);, int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "cannot convert 'double' to 'int' in argument passing",
+    "error_type": "type",
+    "code_snippet": "int add(int a, int b) {\n    return a + b;\n}\nint main() {\n    add(3.14, 2.5);\n}",
+    "explanation": {
+      "description": "Passing double values to function expecting int parameters.",
+      "root_cause": "Function \"add\" expects int arguments, but floating-point values were passed.",
+      "fix": "Either cast to int or change function to accept double.",
+      "example": "double add(double a, double b) { ... } // Accept doubles"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 850;\n    x = 85;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'const char*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int x = \"hello\";\n    return 0;\n}",
+    "explanation": {
+      "description": "Attempting to assign a string to an integer variable.",
+      "root_cause": "Strings and integers are different types and cannot be directly assigned.",
+      "fix": "Use correct type: const char* x = \"hello\";",
+      "example": "const char* x = \"hello\"; // Correct type for strings"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'const char*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int x = \"hello\";\n    return 0;\n}",
+    "explanation": {
+      "description": "Attempting to assign a string to an integer variable.",
+      "root_cause": "Strings and integers are different types and cannot be directly assigned.",
+      "fix": "Use correct type: const char* x = \"hello\";",
+      "example": "const char* x = \"hello\"; // Correct type for strings"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'printf' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"Hello\");\n    return 0;\n}",
+    "explanation": {
+      "description": "Function \"printf\" is not declared because <stdio.h> is not included.",
+      "root_cause": "printf is defined in the standard I/O library, which requires including <stdio.h>.",
+      "fix": "Add #include <stdio.h> at the beginning of the file.",
+      "example": "#include <stdio.h>\nint main() { printf(\"Hello\"); }"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'strcpy' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    char str[20];\n    strcpy(str, \"hello\");\n}",
+    "explanation": {
+      "description": "String function \"strcpy\" requires <string.h>.",
+      "root_cause": "strcpy and other string functions are declared in <string.h>.",
+      "fix": "Add #include <string.h>",
+      "example": "#include <string.h>\nstrcpy(str, \"hello\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'strcpy' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    char str[20];\n    strcpy(str, \"hello\");\n}",
+    "explanation": {
+      "description": "String function \"strcpy\" requires <string.h>.",
+      "root_cause": "strcpy and other string functions are declared in <string.h>.",
+      "fix": "Add #include <string.h>",
+      "example": "#include <string.h>\nstrcpy(str, \"hello\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int x = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int arr[25];\n    int result = arr;\n}",
+    "explanation": {
+      "description": "Array name decays to pointer, cannot be assigned to int.",
+      "root_cause": "Array name \"arr\" is treated as a pointer to its first element.",
+      "fix": "Use int* x = arr; or access element: int x = arr[0];",
+      "example": "int* x = arr; // arr is a pointer\nint y = arr[0]; // Get first element"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "too few arguments to function 'func'",
+    "error_type": "semantic",
+    "code_snippet": "void func(int a, int b);\nint main() {\n    func(5);\n}",
+    "explanation": {
+      "description": "Function \"func\" expects 2 arguments but only 1 was provided.",
+      "root_cause": "The function declaration specifies 2 parameters (a and b), but the call only passes 1.",
+      "fix": "Provide all required arguments: func(5, 10);",
+      "example": "CORRECT: func(5, 10); // Pass both arguments"
+    },
+    "context": "Functions: void func(int a, int b);, int main() {"
+  },
+  {
+    "error_message": "'malloc' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    int* ptr = malloc(sizeof(int));\n}",
+    "explanation": {
+      "description": "Function \"malloc\" requires including <stdlib.h>.",
+      "root_cause": "malloc is part of the standard library, defined in <stdlib.h>.",
+      "fix": "Add #include <stdlib.h> at the beginning.",
+      "example": "#include <stdlib.h>\nint* ptr = malloc(sizeof(int));"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 13;\n    x = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 5;\n    x = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "invalid conversion from 'const char*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int result = \"hello\";\n    return 0;\n}",
+    "explanation": {
+      "description": "Attempting to assign a string to an integer variable.",
+      "root_cause": "Strings and integers are different types and cannot be directly assigned.",
+      "fix": "Use correct type: const char* x = \"hello\";",
+      "example": "const char* x = \"hello\"; // Correct type for strings"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[59 = {1,2,3,4,59};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'strcpy' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    char str[20];\n    strcpy(str, \"hello\");\n}",
+    "explanation": {
+      "description": "String function \"strcpy\" requires <string.h>.",
+      "root_cause": "strcpy and other string functions are declared in <string.h>.",
+      "fix": "Add #include <string.h>",
+      "example": "#include <string.h>\nstrcpy(str, \"hello\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'malloc' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    int* ptr = malloc(sizeof(int));\n}",
+    "explanation": {
+      "description": "Function \"malloc\" requires including <stdlib.h>.",
+      "root_cause": "malloc is part of the standard library, defined in <stdlib.h>.",
+      "fix": "Add #include <stdlib.h> at the beginning.",
+      "example": "#include <stdlib.h>\nint* ptr = malloc(sizeof(int));"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int x = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "too few arguments to function 'func'",
+    "error_type": "semantic",
+    "code_snippet": "void func(int a, int b);\nint main() {\n    func(5);\n}",
+    "explanation": {
+      "description": "Function \"func\" expects 2 arguments but only 1 was provided.",
+      "root_cause": "The function declaration specifies 2 parameters (a and b), but the call only passes 1.",
+      "fix": "Provide all required arguments: func(5, 10);",
+      "example": "CORRECT: func(5, 10); // Pass both arguments"
+    },
+    "context": "Functions: void func(int a, int b);, int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'malloc' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    int* ptr = malloc(sizeof(int));\n}",
+    "explanation": {
+      "description": "Function \"malloc\" requires including <stdlib.h>.",
+      "root_cause": "malloc is part of the standard library, defined in <stdlib.h>.",
+      "fix": "Add #include <stdlib.h> at the beginning.",
+      "example": "#include <stdlib.h>\nint* ptr = malloc(sizeof(int));"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'malloc' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    int* ptr = malloc(sizeof(int));\n}",
+    "explanation": {
+      "description": "Function \"malloc\" requires including <stdlib.h>.",
+      "root_cause": "malloc is part of the standard library, defined in <stdlib.h>.",
+      "fix": "Add #include <stdlib.h> at the beginning.",
+      "example": "#include <stdlib.h>\nint* ptr = malloc(sizeof(int));"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "cannot convert 'double' to 'int' in argument passing",
+    "error_type": "type",
+    "code_snippet": "int add(int a, int b) {\n    return a + b;\n}\nint main() {\n    add(3.14, 2.5);\n}",
+    "explanation": {
+      "description": "Passing double values to function expecting int parameters.",
+      "root_cause": "Function \"add\" expects int arguments, but floating-point values were passed.",
+      "fix": "Either cast to int or change function to accept double.",
+      "example": "double add(double a, double b) { ... } // Accept doubles"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", index);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int x = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'strcpy' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    char str[20];\n    strcpy(str, \"hello\");\n}",
+    "explanation": {
+      "description": "String function \"strcpy\" requires <string.h>.",
+      "root_cause": "strcpy and other string functions are declared in <string.h>.",
+      "fix": "Add #include <string.h>",
+      "example": "#include <string.h>\nstrcpy(str, \"hello\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ')' before 'printf'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    if (x > 0\n        printf(\"Positive\");\n}",
+    "explanation": {
+      "description": "Parenthesis not properly closed in if condition.",
+      "root_cause": "The opening ( in the if statement has no matching closing ).",
+      "fix": "Add closing parenthesis: if (x > 0)",
+      "example": "CORRECT: if (x > 0) // Close parenthesis"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "cannot convert 'double' to 'int' in argument passing",
+    "error_type": "type",
+    "code_snippet": "int add(int a, int b) {\n    return a + b;\n}\nint main() {\n    add(3.14, 2.5);\n}",
+    "explanation": {
+      "description": "Passing double values to function expecting int parameters.",
+      "root_cause": "Function \"add\" expects int arguments, but floating-point values were passed.",
+      "fix": "Either cast to int or change function to accept double.",
+      "example": "double add(double a, double b) { ... } // Accept doubles"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int arr[32];\n    int x = arr;\n}",
+    "explanation": {
+      "description": "Array name decays to pointer, cannot be assigned to int.",
+      "root_cause": "Array name \"arr\" is treated as a pointer to its first element.",
+      "fix": "Use int* x = arr; or access element: int x = arr[0];",
+      "example": "int* x = arr; // arr is a pointer\nint y = arr[0]; // Get first element"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int value = 13;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "missing terminating \" character",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    printf(\"Hello\n}\n}",
+    "explanation": {
+      "description": "String literal is not properly closed with a quote.",
+      "root_cause": "The opening quote for the string has no matching closing quote.",
+      "fix": "Add closing quote: printf(\"Hello\");",
+      "example": "CORRECT: printf(\"Hello\\n\");"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int num = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int num = 5;\n    num = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 5;\n    x = 31;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'int*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int* ptr;\n    int result = ptr;\n}",
+    "explanation": {
+      "description": "Attempting to assign a pointer to a non-pointer variable.",
+      "root_cause": "ptr is a pointer (int*) but x is a regular int. These types are incompatible.",
+      "fix": "Dereference the pointer: int x = *ptr; or make x a pointer: int* x = ptr;",
+      "example": "int x = *ptr; // Dereference to get the value"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int num = 31\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", count);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "invalid conversion from 'const char*' to 'int'",
+    "error_type": "type",
+    "code_snippet": "int main() {\n    int result = \"hello\";\n    return 0;\n}",
+    "explanation": {
+      "description": "Attempting to assign a string to an integer variable.",
+      "root_cause": "Strings and integers are different types and cannot be directly assigned.",
+      "fix": "Use correct type: const char* x = \"hello\";",
+      "example": "const char* x = \"hello\"; // Correct type for strings"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "assignment of read-only variable 'x'",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    const int x = 5;\n    x = 10;\n}",
+    "explanation": {
+      "description": "Attempting to modify a const variable, which is not allowed.",
+      "root_cause": "Variable \"x\" is declared as const, meaning its value cannot be changed.",
+      "fix": "Either remove const or do not modify the variable.",
+      "example": "int x = 5; // Remove const if you need to modify"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 5\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "int main() {\n    printf(\"%d\", total);\n    return 0;\n}",
+    "explanation": {
+      "description": "The variable \"count\" is being used without being declared first.",
+      "root_cause": "Variables must be declared before use. The compiler does not know what \"count\" is.",
+      "fix": "Declare the variable before using it: int count = 0;",
+      "example": "int count = 0; // Declare first\nprintf(\"%d\", count);"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ']' before '='",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int arr[5 = {1,2,3,4,5};\n}",
+    "explanation": {
+      "description": "Array declaration has incorrect syntax. The closing bracket is missing.",
+      "root_cause": "You wrote [ instead of ] for the array size.",
+      "fix": "Change int arr[5 to int arr[5]",
+      "example": "CORRECT: int arr[5] = {1,2,3,4,5};"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected ';' before 'return'",
+    "error_type": "syntax",
+    "code_snippet": "int main() {\n    int x = 53\n    return 0;\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon. In C/C++, almost every statement must end with a semicolon.",
+      "root_cause": "The compiler expected a semicolon after \"int x = 5\" but found \"return\" instead.",
+      "fix": "Add a semicolon after \"int x = 5\": int x = 5;",
+      "example": "CORRECT: int x = 5; // Add semicolon"
+    },
+    "context": "Functions: int main() {"
+  },
+  {
+    "error_message": "expected '{' before 'int'",
+    "error_type": "syntax",
+    "code_snippet": "int main() \n    int x = 5;\n    return 0;\n}",
+    "explanation": {
+      "description": "Function definition missing opening brace.",
+      "root_cause": "After function declaration, you need { to start the function body.",
+      "fix": "Add { after main(): int main() {",
+      "example": "CORRECT: int main() { // Add opening brace"
+    },
+    "context": "Functions: int main()"
+  }
+]

@@ -50,7 +50,7 @@ class CompilerError:
         d['severity'] = self.severity.value
         return d
 
-# --- Main Collector Class (Week 6 Requirements) ---
+
 
 class ErrorCollector:
     """Parses compiler diagnostics and enriches them with AST and real-time logs."""

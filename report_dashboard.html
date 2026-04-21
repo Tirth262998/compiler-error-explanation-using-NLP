@@ -1,0 +1,173 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project Pipeline Performance Report</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #ffffff; color: #333; padding: 20px; }
+            .container { max-width: 900px; margin: 0 auto; }
+            header { border-bottom: 3px solid #4CAF50; padding-bottom: 20px; margin-bottom: 30px; text-align: center; }
+            h1 { color: #2E7D32; }
+            section { margin-bottom: 60px; text-align: center; }
+            img { max-width: 100%; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 4px; }
+            h2 { color: #424242; border-left: 5px solid #4CAF50; padding-left: 10px; text-align: left; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: #fff; }
+            th, td { border: 1px solid #eee; padding: 12px; text-align: center; }
+            th { background-color: #f8f9fa; color: #555; }
+            .status-failed { color: #d32f2f; font-weight: bold; }
+            .status-success { color: #388e3c; font-weight: bold; }
+            .caption { font-size: 0.9em; color: #666; font-style: italic; margin-top: 10px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Project Execution Report</h1>
+                <p>Metrics captured through the full internal system pipeline.</p>
+            </header>
+            
+            <section>
+                <h2>1. Execution Time Comparison</h2>
+                <img src="execution_time.png">
+                <p class="caption">Analysis of pipeline duration across all test cases.</p>
+            </section>
+
+            <section>
+                <h2>2. Energy Consumption Analysis</h2>
+                <img src="energy_comparison.png">
+                <p class="caption">Energy footprint estimation calculated during pipeline processing.</p>
+            </section>
+
+            <section>
+                <h2>3. CPU Utilization Analysis</h2>
+                <img src="cpu_utilization.png">
+                <p class="caption">Peak CPU consumption overhead for each test scenario.</p>
+            </section>
+
+            <section>
+                <h2>4. Correlation: LOC vs Time</h2>
+                <img src="loc_vs_time.png">
+                <p class="caption">Relationship between source code scale and processing latency.</p>
+            </section>
+
+            <section>
+                <h2>5. Correlation: LOC vs Energy</h2>
+                <img src="loc_vs_energy.png">
+                <p class="caption">Impact of code volume on environmental metrics (Energy/CO2).</p>
+            </section>
+
+            <section>
+                <h2>📊 Pipeline Results Summary</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>File Name</th>
+                            <th>LOC</th>
+                            <th>Time (s)</th>
+                            <th>CPU (%)</th>
+                            <th>Energy (J)</th>
+                            <th>Vulns</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>array_bounds.c</td>
+                            <td>8</td>
+                            <td>0.053621</td>
+                            <td>21.95</td>
+                            <td>0.32955646</td>
+                            <td>2</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>missing_header.c</td>
+                            <td>4</td>
+                            <td>0.051128</td>
+                            <td>22.26</td>
+                            <td>0.31866856</td>
+                            <td>1</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>missing_semicolon.c</td>
+                            <td>7</td>
+                            <td>0.050621</td>
+                            <td>34.18</td>
+                            <td>0.48446581</td>
+                            <td>1</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>null_pointer.c</td>
+                            <td>9</td>
+                            <td>0.050695</td>
+                            <td>28.24</td>
+                            <td>0.40085505</td>
+                            <td>1</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>test1.c</td>
+                            <td>79</td>
+                            <td>0.051642</td>
+                            <td>43.98</td>
+                            <td>0.63594539</td>
+                            <td>21</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>test2.c</td>
+                            <td>11</td>
+                            <td>0.050411</td>
+                            <td>25.46</td>
+                            <td>0.35936644</td>
+                            <td>4</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>type_mismatch.c</td>
+                            <td>6</td>
+                            <td>0.050659</td>
+                            <td>29.64</td>
+                            <td>0.42043264</td>
+                            <td>1</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>undeclared_var.c</td>
+                            <td>6</td>
+                            <td>0.050146</td>
+                            <td>31.32</td>
+                            <td>0.43976126</td>
+                            <td>1</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>unsafe_buffer.c</td>
+                            <td>9</td>
+                            <td>0.050512</td>
+                            <td>27.82</td>
+                            <td>0.39347072</td>
+                            <td>3</td>
+                            <td class="status-success">SUCCESS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </body>
+    </html>
+    

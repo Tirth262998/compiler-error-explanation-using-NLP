@@ -1,0 +1,2002 @@
+[
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  },
+  {
+    "error_message": "expected ';' before '}' token",
+    "error_type": "syntax",
+    "code_snippet": "int x = 5\n}",
+    "explanation": {
+      "description": "You forgot to end the statement with a semicolon.",
+      "root_cause": "Every statement in C must end with a semicolon.",
+      "fix": "Add a semicolon after 'int x = 5'"
+    }
+  },
+  {
+    "error_message": "'count' was not declared in this scope",
+    "error_type": "semantic",
+    "code_snippet": "printf(\"%d\", count);",
+    "explanation": {
+      "description": "The variable 'count' has not been declared.",
+      "root_cause": "You're using a variable that doesn't exist in the current scope.",
+      "fix": "Declare 'count' before using it: int count = 0;"
+    }
+  }
+]
